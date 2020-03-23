@@ -1,10 +1,11 @@
-import React, { Component } from "react";
-import "./App.css";
-class App extends Component {
+import React from "react";
+import Counter2 from "./03/Counter2";
+
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <h1 className="title">두잇! 리액트 시작하기</h1>
+      <div>
+        <Counter2 />
       </div>
     );
   }
